@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <form th:action th:object="${greenCardRequestDto}" method="post">
+        <div>
+            <label for="category">카드종류</label>
+            <input type="text" id="category" name="category" th:field="*{category}" />
+        </div>
+
+        <div>
+            <label for="greenGrade">그린등급</label>
+            <select id="greenGrade" th:field="*{greenGrade}">
+                <option value="SEED" selected>씨앗</option>
+                <option value="SPROUT">새싹</option>
+                <option value="PEA">완두콩</option>
+                <option value="KING">왕두콩</option>
+            </select>
+        </div>
+
+        <div>
+            <button class="w-100 btn btn-primary btn-lg" type="sumbit">생성</button>
+            <button class="w-100 btn btn-secondary btn-lg" th:onclick="|location.href='@{/}'|"
+                    type="button">취소</button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>

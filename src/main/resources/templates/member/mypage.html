@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>마이페이지</h2>
+<div>
+    회원번호: <span th:text="${member.memberId}"></span>
+    저탄소제품 구매량: <span th:text="${member.product}"></span>
+    대중교통 이용량: <span th:text="${member.traffic}"></span>
+    중고거래 이용량: <span th:text="${member.trade}"></span>
+    그린지수: <span th:text="${member.greenScore}"></span>
+    그린등급: <span th:text="${member.greenGrade}"></span>
+</div>
+</body>
+</html>

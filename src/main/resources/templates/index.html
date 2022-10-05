@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+신빅해 - 신박해커톤 팀
+신콩해 서비스 메인페이지
+
+<a th:href="@{/greencard/register}">그린카드 등록</a>
+<a th:href="@{/mypage/}"></a>
+<h2>신콩해의 그린카드는 이렇게 등급별로 존재해요!</h2>
+<div class="flex-col my-4" th:each="card : ${cards}">
+    <div class="flex-row my-3">
+        <span th:text="${card.id}"></span>
+        <span th:text="${card.category}"></span>
+        <span th:text="${card.greenGrade}"></span>
+    </div>
+
+</div>
+</body>
+</html>
