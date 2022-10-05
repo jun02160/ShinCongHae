@@ -31,7 +31,7 @@ public class ApiController {
         strList.add(String.valueOf(member.getTrade()));
         strList.add(String.valueOf(member.getGreenScore()));
         strList.add(member.getGreenGrade().getValue());
-        strList.add(member.getGreedCard().toString());
+        strList.add(member.getGreedCard().getGreenGrade().getValue());
 
         return strList;
     }
