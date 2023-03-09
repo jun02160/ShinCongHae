@@ -2,7 +2,7 @@
 
 <b>신.빅.해 (빅데이터 해커톤 대회) 제1회 신한카드 데이터분석 부문 준우승(2022.09.16~30)</b>
 
-<img width=400 src="https://user-images.githubusercontent.com/80024278/223900759-fb77b48e-d072-46de-bf7e-95a1b064ec3c.png">
+<img width=700 src="https://user-images.githubusercontent.com/80024278/223900759-fb77b48e-d072-46de-bf7e-95a1b064ec3c.png">
 
 ### 서비스 소개
 
@@ -28,7 +28,7 @@
 - 신콩 환경 레벨 테스트 (for MZ 세대 타깃층)
 
 ### 서비스 ERD
-<img width=300 src="https://user-images.githubusercontent.com/80024278/223900764-dfbf78f5-722d-46c7-a275-3b9dad3db03c.png">
+<img width=500 src="https://user-images.githubusercontent.com/80024278/223900764-dfbf78f5-722d-46c7-a275-3b9dad3db03c.png">
 
-### 시연 
+### 시연 영상
 <video src="https://user-images.githubusercontent.com/80024278/223901558-554ce451-759f-4518-b348-b90629bfce5f.mov"></video>
